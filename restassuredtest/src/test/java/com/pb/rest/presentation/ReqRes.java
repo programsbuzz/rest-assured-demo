@@ -13,6 +13,8 @@ import static io.restassured.RestAssured.given;
 public class ReqRes 
 {
 	public static String id = "2";
+	public int a;
+	//Hello
 	
 	@BeforeClass
 	public void setup()
