@@ -14,6 +14,7 @@ public class ReqRes
 {
 	public static String id = "2";
 	public int a;
+	public int b;
 	//Hello
 	
 	@BeforeClass
