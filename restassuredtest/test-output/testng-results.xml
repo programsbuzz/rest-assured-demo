@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-20T14:40:31 IST" name="Default suite" finished-at="2020-07-20T14:40:36 IST" duration-ms="4111">
+  <suite started-at="2021-07-21T15:48:33 IST" name="Default suite" finished-at="2021-07-21T15:48:38 IST" duration-ms="5011">
     <groups>
     </groups>
-    <test started-at="2020-07-20T14:40:31 IST" name="Default test" finished-at="2020-07-20T14:40:36 IST" duration-ms="4111">
-      <class name="com.pb.rest.specs.RequestSpecificationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.pb.rest.specs.RequestSpecificationTest@3745e5c6]" started-at="2020-07-20T14:40:32 IST" name="setup" finished-at="2020-07-20T14:40:33 IST" duration-ms="1002" status="PASS">
+    <test started-at="2021-07-21T15:48:33 IST" name="Default test" finished-at="2021-07-21T15:48:38 IST" duration-ms="5011">
+      <class name="com.pb.rest.presentation.WaitCall">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pb.rest.presentation.WaitCall@366647c2]" started-at="2021-07-21T15:48:33 IST" name="setup" finished-at="2021-07-21T15:48:34 IST" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ArrayIterate()[pri:0, instance:com.pb.rest.specs.RequestSpecificationTest@3745e5c6]" started-at="2020-07-20T14:40:33 IST" name="ArrayIterate" finished-at="2020-07-20T14:40:35 IST" duration-ms="2366" status="PASS">
+        <test-method signature="postExample(java.lang.String, java.lang.String)[pri:0, instance:com.pb.rest.presentation.WaitCall@366647c2]" started-at="2021-07-21T15:48:34 IST" name="postExample" data-provider="userlogin" finished-at="2021-07-21T15:48:37 IST" duration-ms="2625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tarun Goswami]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ArrayIterate -->
-        <test-method signature="conditionalLogic()[pri:0, instance:com.pb.rest.specs.RequestSpecificationTest@3745e5c6]" started-at="2020-07-20T14:40:35 IST" name="conditionalLogic" finished-at="2020-07-20T14:40:36 IST" duration-ms="680" status="PASS">
+        </test-method> <!-- postExample -->
+        <test-method signature="postExample(java.lang.String, java.lang.String)[pri:0, instance:com.pb.rest.presentation.WaitCall@366647c2]" started-at="2021-07-21T15:48:37 IST" name="postExample" data-provider="userlogin" finished-at="2021-07-21T15:48:38 IST" duration-ms="757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram Sharma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DEV]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- conditionalLogic -->
-      </class> <!-- com.pb.rest.specs.RequestSpecificationTest -->
+        </test-method> <!-- postExample -->
+        <test-method signature="postExample(java.lang.String, java.lang.String)[pri:0, instance:com.pb.rest.presentation.WaitCall@366647c2]" started-at="2021-07-21T15:48:38 IST" name="postExample" data-provider="userlogin" finished-at="2021-07-21T15:48:38 IST" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohan Verma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postExample -->
+      </class> <!-- com.pb.rest.presentation.WaitCall -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

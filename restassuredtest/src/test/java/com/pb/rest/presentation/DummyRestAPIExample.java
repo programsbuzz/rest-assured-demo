@@ -12,25 +12,30 @@ public class DummyRestAPIExample
 	@BeforeClass
 	public void setup()
 	{
-		RestAssured.baseURI = "http://dummy.restapiexample.com";
-		RestAssured.basePath = "/api/v1";
+		RestAssured.baseURI = "https://reqres.in";
+		RestAssured.basePath = "/api";
 	}
 	
 	@Test
 	public void postMethodExample()
 	{
-		Response res = 
 		given()
 			.body("{" + 
-					"\"name\":\"test\",\n" + 
-					"\"salary\":\"123\",\n" + 
-					"\"age\":\"23\"\n" + 
+					"\"name\":\"Tarun Goswami\",\n" + 
+					"\"job\":\"QA\",\n" + 
 					"}")
 		.when()
-			.post("/create");
+			.post("/users")
+		.then()
+		    .log()
+//		    .cookies()
+//		    .status()
+//		    .headers()
+//		    .body()
+		    .all()
+			.statusCode(201);
 		
-		System.out.println(res.body());
+//		System.out.println(res.body().prettyPrint());
 			
 	}
-
 }
