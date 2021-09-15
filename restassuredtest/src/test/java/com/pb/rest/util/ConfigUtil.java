@@ -9,7 +9,9 @@ private static ConfigUtil manager;
 private static final Properties prop = new Properties();
 
 private ConfigUtil() throws Exception{
-	InputStream inputStream = ConfigUtil.class.getResourceAsStream("../src/test/resource/prod.properties");
+	InputStream inputStream = ConfigUtil.class.getResourceAsStream("../resource/prod.properties");
+	
+	System.out.println(System.getProperty("user.dir")+"\\src\\test\\resource\\prod.properties");
     prop.load(inputStream);
 }
 
