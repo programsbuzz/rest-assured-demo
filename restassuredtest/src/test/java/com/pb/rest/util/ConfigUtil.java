@@ -1,5 +1,6 @@
 package com.pb.rest.util;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -9,8 +10,8 @@ private static ConfigUtil manager;
 private static final Properties prop = new Properties();
 
 private ConfigUtil() throws Exception{
-	InputStream inputStream = ConfigUtil.class.getResourceAsStream("../resource/prod.properties");
-	
+	String dir = System.getProperty("user.dir");
+	InputStream inputStream = new FileInputStream(dir+"\\src\\test\\resource\\prod.properties");
 	System.out.println(System.getProperty("user.dir")+"\\src\\test\\resource\\prod.properties");
     prop.load(inputStream);
 }

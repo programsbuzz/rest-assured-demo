@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pb.rest.presentation.WaitCall">
+      <class name="com.pb.rest.presentation.TestGETPerson">
         <methods>
-          <include name="postExample" invocation-numbers="0 1 2"/>
-          <include name="setup"/>
+          <include name="testGetAllPerson"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- com.pb.rest.presentation.WaitCall -->
+      </class> <!-- com.pb.rest.presentation.TestGETPerson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
