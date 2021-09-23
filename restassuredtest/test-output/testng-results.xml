@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2175" started-at="2021-09-23T14:24:18Z" finished-at="2021-09-23T14:24:20Z">
+  <suite name="Default suite" duration-ms="3131" started-at="2021-09-23T14:37:53Z" finished-at="2021-09-23T14:37:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2175" started-at="2021-09-23T14:24:18Z" finished-at="2021-09-23T14:24:20Z">
+    <test name="Default test" duration-ms="3131" started-at="2021-09-23T14:37:53Z" finished-at="2021-09-23T14:37:56Z">
       <class name="finalSD.serialDeserialTest">
-        <test-method status="PASS" signature="DeserTest()[pri:0, instance:finalSD.serialDeserialTest@7d3a22a9]" name="DeserTest" duration-ms="2119" started-at="2021-09-23T14:24:18Z" finished-at="2021-09-23T14:24:20Z">
+        <test-method status="PASS" signature="DeserTest()[pri:0, instance:finalSD.serialDeserialTest@7d3a22a9]" name="DeserTest" duration-ms="3085" started-at="2021-09-23T14:37:53Z" finished-at="2021-09-23T14:37:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeserTest -->

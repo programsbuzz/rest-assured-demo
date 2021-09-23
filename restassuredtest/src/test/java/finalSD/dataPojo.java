@@ -1,15 +1,15 @@
 package finalSD;
 
 public class dataPojo {
-private String id;
+private int id;
 private String name;
 private String email;
 private String gender;
 private String status;
-public String getId() {
+public int getId() {
 	return id;
 }
-public void setId(String id) {
+public void setId(int id) {
 	this.id = id;
 }
 public String getName() {
