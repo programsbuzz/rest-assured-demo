@@ -2,38 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4325" started-at="2021-09-21T13:18:56Z" finished-at="2021-09-21T13:19:01Z">
+  <suite name="Default suite" duration-ms="3284" started-at="2021-09-23T10:03:13Z" finished-at="2021-09-23T10:03:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4325" started-at="2021-09-21T13:18:56Z" finished-at="2021-09-21T13:19:01Z">
+    <test name="Default test" duration-ms="3284" started-at="2021-09-23T10:03:13Z" finished-at="2021-09-23T10:03:16Z">
       <class name="serial.SerialReqRes">
-        <test-method status="FAIL" signature="reqSerialize()[pri:0, instance:serial.SerialReqRes@1e730495]" name="reqSerialize" duration-ms="4256" started-at="2021-09-21T13:18:56Z" finished-at="2021-09-21T13:19:01Z">
+        <test-method status="FAIL" signature="reqSerialize()[pri:0, instance:serial.SerialReqRes@1e730495]" name="reqSerialize" duration-ms="3222" started-at="2021-09-23T10:03:13Z" finished-at="2021-09-23T10:03:16Z">
           <exception class="com.fasterxml.jackson.databind.exc.InvalidDefinitionException">
             <message>
               <![CDATA[Cannot construct instance of `serial.SerializationPOJO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
- at [Source: (String)"{
-    "meta": null,
-    "data": {
-        "id": 1875,
-        "name": "Sasuke",
-        "email": "sasuke@nana.com",
-        "gender": "male",
-        "status": "active"
-    }
-}"; line: 2, column: 5]]]>
+ at [Source: (String)"{"meta":null,"data":{"id":1523,"name":"Sasuke","email":"aa@alal.com","gender":"male","status":"active"}}"; line: 1, column: 2]]]>
             </message>
             <full-stacktrace>
               <![CDATA[com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `serial.SerializationPOJO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
- at [Source: (String)"{
-    "meta": null,
-    "data": {
-        "id": 1875,
-        "name": "Sasuke",
-        "email": "sasuke@nana.com",
-        "gender": "male",
-        "status": "active"
-    }
-}"; line: 2, column: 5]
+ at [Source: (String)"{"meta":null,"data":{"id":1523,"name":"Sasuke","email":"aa@alal.com","gender":"male","status":"active"}}"; line: 1, column: 2]
 at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
 at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1615)
 at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
